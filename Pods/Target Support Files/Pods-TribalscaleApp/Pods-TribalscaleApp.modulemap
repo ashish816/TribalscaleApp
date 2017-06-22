@@ -1,0 +1,6 @@
+framework module Pods_TribalscaleApp {
+  umbrella header "Pods-TribalscaleApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

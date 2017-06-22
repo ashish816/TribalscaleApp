@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		758AA8B41EFB2FA60091F279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8B31EFB2FA60091F279 /* AppDelegate.swift */; };
+		758AA8B61EFB2FA60091F279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8B51EFB2FA60091F279 /* ViewController.swift */; };
+		758AA8B91EFB2FA60091F279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758AA8B71EFB2FA60091F279 /* Main.storyboard */; };
+		758AA8BB1EFB2FA60091F279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758AA8BA1EFB2FA60091F279 /* Assets.xcassets */; };
+		758AA8BE1EFB2FA60091F279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758AA8BC1EFB2FA60091F279 /* LaunchScreen.storyboard */; };
+		758AA8C91EFB2FA60091F279 /* TribalscaleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8C81EFB2FA60091F279 /* TribalscaleAppTests.swift */; };
+		758AA8D41EFB2FA60091F279 /* TribalscaleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8D31EFB2FA60091F279 /* TribalscaleAppUITests.swift */; };
+		758AA8E21EFB39FB0091F279 /* ServiceCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8E11EFB39FB0091F279 /* ServiceCommunicator.swift */; };
+		758AA8E41EFB3A200091F279 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8E31EFB3A200091F279 /* UserInfo.swift */; };
+		758AA8E61EFB3AE50091F279 /* UserListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8E51EFB3AE50091F279 /* UserListCell.swift */; };
+		758AA8E81EFB99190091F279 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8E71EFB99190091F279 /* UserDetailViewController.swift */; };
+		82469584330E7E0E66A4AA01 /* Pods_TribalscaleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4456E112E0394578AE4A531D /* Pods_TribalscaleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		758AA8C51EFB2FA60091F279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758AA8A81EFB2FA60091F279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758AA8AF1EFB2FA60091F279;
+			remoteInfo = TribalscaleApp;
+		};
+		758AA8D01EFB2FA60091F279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758AA8A81EFB2FA60091F279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758AA8AF1EFB2FA60091F279;
+			remoteInfo = TribalscaleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4456E112E0394578AE4A531D /* Pods_TribalscaleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TribalscaleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758AA8B01EFB2FA60091F279 /* TribalscaleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TribalscaleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		758AA8B31EFB2FA60091F279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		758AA8B51EFB2FA60091F279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		758AA8B81EFB2FA60091F279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		758AA8BA1EFB2FA60091F279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		758AA8BD1EFB2FA60091F279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		758AA8BF1EFB2FA60091F279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758AA8C41EFB2FA60091F279 /* TribalscaleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribalscaleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758AA8C81EFB2FA60091F279 /* TribalscaleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribalscaleAppTests.swift; sourceTree = "<group>"; };
+		758AA8CA1EFB2FA60091F279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758AA8CF1EFB2FA60091F279 /* TribalscaleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TribalscaleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758AA8D31EFB2FA60091F279 /* TribalscaleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TribalscaleAppUITests.swift; sourceTree = "<group>"; };
+		758AA8D51EFB2FA60091F279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758AA8E11EFB39FB0091F279 /* ServiceCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCommunicator.swift; sourceTree = "<group>"; };
+		758AA8E31EFB3A200091F279 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		758AA8E51EFB3AE50091F279 /* UserListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
+		758AA8E71EFB99190091F279 /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		B96C8615A13B1DF6EE304D8C /* Pods-TribalscaleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalscaleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TribalscaleApp/Pods-TribalscaleApp.release.xcconfig"; sourceTree = "<group>"; };
+		C1B3F6985AC991ABDF856296 /* Pods-TribalscaleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalscaleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TribalscaleApp/Pods-TribalscaleApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758AA8AD1EFB2FA60091F279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82469584330E7E0E66A4AA01 /* Pods_TribalscaleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758AA8C11EFB2FA60091F279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758AA8CC1EFB2FA60091F279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B4169DCCFC00E4E7B66E452 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3F6985AC991ABDF856296 /* Pods-TribalscaleApp.debug.xcconfig */,
+				B96C8615A13B1DF6EE304D8C /* Pods-TribalscaleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		758AA8A71EFB2FA60091F279 = {
+			isa = PBXGroup;
+			children = (
+				758AA8B21EFB2FA60091F279 /* TribalscaleApp */,
+				758AA8C71EFB2FA60091F279 /* TribalscaleAppTests */,
+				758AA8D21EFB2FA60091F279 /* TribalscaleAppUITests */,
+				758AA8B11EFB2FA60091F279 /* Products */,
+				4B4169DCCFC00E4E7B66E452 /* Pods */,
+				7F0733D926E4C8275C7794DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		758AA8B11EFB2FA60091F279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				758AA8B01EFB2FA60091F279 /* TribalscaleApp.app */,
+				758AA8C41EFB2FA60091F279 /* TribalscaleAppTests.xctest */,
+				758AA8CF1EFB2FA60091F279 /* TribalscaleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758AA8B21EFB2FA60091F279 /* TribalscaleApp */ = {
+			isa = PBXGroup;
+			children = (
+				758AA8B31EFB2FA60091F279 /* AppDelegate.swift */,
+				758AA8B51EFB2FA60091F279 /* ViewController.swift */,
+				758AA8B71EFB2FA60091F279 /* Main.storyboard */,
+				758AA8BA1EFB2FA60091F279 /* Assets.xcassets */,
+				758AA8BC1EFB2FA60091F279 /* LaunchScreen.storyboard */,
+				758AA8BF1EFB2FA60091F279 /* Info.plist */,
+				758AA8E11EFB39FB0091F279 /* ServiceCommunicator.swift */,
+				758AA8E31EFB3A200091F279 /* UserInfo.swift */,
+				758AA8E51EFB3AE50091F279 /* UserListCell.swift */,
+				758AA8E71EFB99190091F279 /* UserDetailViewController.swift */,
+			);
+			path = TribalscaleApp;
+			sourceTree = "<group>";
+		};
+		758AA8C71EFB2FA60091F279 /* TribalscaleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				758AA8C81EFB2FA60091F279 /* TribalscaleAppTests.swift */,
+				758AA8CA1EFB2FA60091F279 /* Info.plist */,
+			);
+			path = TribalscaleAppTests;
+			sourceTree = "<group>";
+		};
+		758AA8D21EFB2FA60091F279 /* TribalscaleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				758AA8D31EFB2FA60091F279 /* TribalscaleAppUITests.swift */,
+				758AA8D51EFB2FA60091F279 /* Info.plist */,
+			);
+			path = TribalscaleAppUITests;
+			sourceTree = "<group>";
+		};
+		7F0733D926E4C8275C7794DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4456E112E0394578AE4A531D /* Pods_TribalscaleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		758AA8AF1EFB2FA60091F279 /* TribalscaleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758AA8D81EFB2FA60091F279 /* Build configuration list for PBXNativeTarget "TribalscaleApp" */;
+			buildPhases = (
+				5892FC3974CF6F30DB94A279 /* 📦 Check Pods Manifest.lock */,
+				758AA8AC1EFB2FA60091F279 /* Sources */,
+				758AA8AD1EFB2FA60091F279 /* Frameworks */,
+				758AA8AE1EFB2FA60091F279 /* Resources */,
+				9DECE3370D6AC0EDD2560A17 /* 📦 Embed Pods Frameworks */,
+				7AF210D83241C3D422B2797C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TribalscaleApp;
+			productName = TribalscaleApp;
+			productReference = 758AA8B01EFB2FA60091F279 /* TribalscaleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		758AA8C31EFB2FA60091F279 /* TribalscaleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758AA8DB1EFB2FA60091F279 /* Build configuration list for PBXNativeTarget "TribalscaleAppTests" */;
+			buildPhases = (
+				758AA8C01EFB2FA60091F279 /* Sources */,
+				758AA8C11EFB2FA60091F279 /* Frameworks */,
+				758AA8C21EFB2FA60091F279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758AA8C61EFB2FA60091F279 /* PBXTargetDependency */,
+			);
+			name = TribalscaleAppTests;
+			productName = TribalscaleAppTests;
+			productReference = 758AA8C41EFB2FA60091F279 /* TribalscaleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		758AA8CE1EFB2FA60091F279 /* TribalscaleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758AA8DE1EFB2FA60091F279 /* Build configuration list for PBXNativeTarget "TribalscaleAppUITests" */;
+			buildPhases = (
+				758AA8CB1EFB2FA60091F279 /* Sources */,
+				758AA8CC1EFB2FA60091F279 /* Frameworks */,
+				758AA8CD1EFB2FA60091F279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758AA8D11EFB2FA60091F279 /* PBXTargetDependency */,
+			);
+			name = TribalscaleAppUITests;
+			productName = TribalscaleAppUITests;
+			productReference = 758AA8CF1EFB2FA60091F279 /* TribalscaleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		758AA8A81EFB2FA60091F279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ashish Mishra";
+				TargetAttributes = {
+					758AA8AF1EFB2FA60091F279 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DVT26A466Y;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					758AA8C31EFB2FA60091F279 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DVT26A466Y;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 758AA8AF1EFB2FA60091F279;
+					};
+					758AA8CE1EFB2FA60091F279 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DVT26A466Y;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 758AA8AF1EFB2FA60091F279;
+					};
+				};
+			};
+			buildConfigurationList = 758AA8AB1EFB2FA60091F279 /* Build configuration list for PBXProject "TribalscaleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 758AA8A71EFB2FA60091F279;
+			productRefGroup = 758AA8B11EFB2FA60091F279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758AA8AF1EFB2FA60091F279 /* TribalscaleApp */,
+				758AA8C31EFB2FA60091F279 /* TribalscaleAppTests */,
+				758AA8CE1EFB2FA60091F279 /* TribalscaleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		758AA8AE1EFB2FA60091F279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758AA8BE1EFB2FA60091F279 /* LaunchScreen.storyboard in Resources */,
+				758AA8BB1EFB2FA60091F279 /* Assets.xcassets in Resources */,
+				758AA8B91EFB2FA60091F279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758AA8C21EFB2FA60091F279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758AA8CD1EFB2FA60091F279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5892FC3974CF6F30DB94A279 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF210D83241C3D422B2797C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalscaleApp/Pods-TribalscaleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DECE3370D6AC0EDD2560A17 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalscaleApp/Pods-TribalscaleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		758AA8AC1EFB2FA60091F279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758AA8E61EFB3AE50091F279 /* UserListCell.swift in Sources */,
+				758AA8E41EFB3A200091F279 /* UserInfo.swift in Sources */,
+				758AA8E81EFB99190091F279 /* UserDetailViewController.swift in Sources */,
+				758AA8B61EFB2FA60091F279 /* ViewController.swift in Sources */,
+				758AA8E21EFB39FB0091F279 /* ServiceCommunicator.swift in Sources */,
+				758AA8B41EFB2FA60091F279 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758AA8C01EFB2FA60091F279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758AA8C91EFB2FA60091F279 /* TribalscaleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758AA8CB1EFB2FA60091F279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758AA8D41EFB2FA60091F279 /* TribalscaleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		758AA8C61EFB2FA60091F279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758AA8AF1EFB2FA60091F279 /* TribalscaleApp */;
+			targetProxy = 758AA8C51EFB2FA60091F279 /* PBXContainerItemProxy */;
+		};
+		758AA8D11EFB2FA60091F279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 758AA8AF1EFB2FA60091F279 /* TribalscaleApp */;
+			targetProxy = 758AA8D01EFB2FA60091F279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		758AA8B71EFB2FA60091F279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758AA8B81EFB2FA60091F279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		758AA8BC1EFB2FA60091F279 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758AA8BD1EFB2FA60091F279 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758AA8D61EFB2FA60091F279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		758AA8D71EFB2FA60091F279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758AA8D91EFB2FA60091F279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B3F6985AC991ABDF856296 /* Pods-TribalscaleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVT26A466Y;
+				INFOPLIST_FILE = TribalscaleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.Tribalscale.TribalscaleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		758AA8DA1EFB2FA60091F279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96C8615A13B1DF6EE304D8C /* Pods-TribalscaleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVT26A466Y;
+				INFOPLIST_FILE = TribalscaleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.Tribalscale.TribalscaleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		758AA8DC1EFB2FA60091F279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DVT26A466Y;
+				INFOPLIST_FILE = TribalscaleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.Tribalscale.TribalscaleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TribalscaleApp.app/TribalscaleApp";
+			};
+			name = Debug;
+		};
+		758AA8DD1EFB2FA60091F279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DVT26A466Y;
+				INFOPLIST_FILE = TribalscaleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.Tribalscale.TribalscaleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TribalscaleApp.app/TribalscaleApp";
+			};
+			name = Release;
+		};
+		758AA8DF1EFB2FA60091F279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DVT26A466Y;
+				INFOPLIST_FILE = TribalscaleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.Tribalscale.TribalscaleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TribalscaleApp;
+			};
+			name = Debug;
+		};
+		758AA8E01EFB2FA60091F279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DVT26A466Y;
+				INFOPLIST_FILE = TribalscaleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.Tribalscale.TribalscaleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TribalscaleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758AA8AB1EFB2FA60091F279 /* Build configuration list for PBXProject "TribalscaleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758AA8D61EFB2FA60091F279 /* Debug */,
+				758AA8D71EFB2FA60091F279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758AA8D81EFB2FA60091F279 /* Build configuration list for PBXNativeTarget "TribalscaleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758AA8D91EFB2FA60091F279 /* Debug */,
+				758AA8DA1EFB2FA60091F279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758AA8DB1EFB2FA60091F279 /* Build configuration list for PBXNativeTarget "TribalscaleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758AA8DC1EFB2FA60091F279 /* Debug */,
+				758AA8DD1EFB2FA60091F279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758AA8DE1EFB2FA60091F279 /* Build configuration list for PBXNativeTarget "TribalscaleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758AA8DF1EFB2FA60091F279 /* Debug */,
+				758AA8E01EFB2FA60091F279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 758AA8A81EFB2FA60091F279 /* Project object */;
+}
