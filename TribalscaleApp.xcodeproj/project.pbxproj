@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		507BE39D8FC2DF97C1C998D0 /* Pods_TribalscaleAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C8CDB2E7A38BB0C28B4CA8 /* Pods_TribalscaleAppTests.framework */; };
 		758AA8B41EFB2FA60091F279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8B31EFB2FA60091F279 /* AppDelegate.swift */; };
 		758AA8B61EFB2FA60091F279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758AA8B51EFB2FA60091F279 /* ViewController.swift */; };
 		758AA8B91EFB2FA60091F279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758AA8B71EFB2FA60091F279 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DBA7F111228C0C2C1108FD6 /* Pods-TribalscaleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalscaleAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TribalscaleAppTests/Pods-TribalscaleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		18EAC4636343A976B78C36D4 /* Pods-TribalscaleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalscaleAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TribalscaleAppTests/Pods-TribalscaleAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		4456E112E0394578AE4A531D /* Pods_TribalscaleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TribalscaleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		758AA8B01EFB2FA60091F279 /* TribalscaleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TribalscaleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758AA8B31EFB2FA60091F279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		758AA8E51EFB3AE50091F279 /* UserListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListCell.swift; sourceTree = "<group>"; };
 		758AA8E71EFB99190091F279 /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		B96C8615A13B1DF6EE304D8C /* Pods-TribalscaleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalscaleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TribalscaleApp/Pods-TribalscaleApp.release.xcconfig"; sourceTree = "<group>"; };
+		B9C8CDB2E7A38BB0C28B4CA8 /* Pods_TribalscaleAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TribalscaleAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B3F6985AC991ABDF856296 /* Pods-TribalscaleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TribalscaleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TribalscaleApp/Pods-TribalscaleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507BE39D8FC2DF97C1C998D0 /* Pods_TribalscaleAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +97,8 @@
 			children = (
 				C1B3F6985AC991ABDF856296 /* Pods-TribalscaleApp.debug.xcconfig */,
 				B96C8615A13B1DF6EE304D8C /* Pods-TribalscaleApp.release.xcconfig */,
+				0DBA7F111228C0C2C1108FD6 /* Pods-TribalscaleAppTests.debug.xcconfig */,
+				18EAC4636343A976B78C36D4 /* Pods-TribalscaleAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -157,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				4456E112E0394578AE4A531D /* Pods_TribalscaleApp.framework */,
+				B9C8CDB2E7A38BB0C28B4CA8 /* Pods_TribalscaleAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -188,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 758AA8DB1EFB2FA60091F279 /* Build configuration list for PBXNativeTarget "TribalscaleAppTests" */;
 			buildPhases = (
+				74A8F7428E8B8E86D4E9A6BD /* 📦 Check Pods Manifest.lock */,
 				758AA8C01EFB2FA60091F279 /* Sources */,
 				758AA8C11EFB2FA60091F279 /* Frameworks */,
 				758AA8C21EFB2FA60091F279 /* Resources */,
+				B644515855E6CCAAB31EEB7B /* 📦 Embed Pods Frameworks */,
+				A719DC539C1E04AA9A2BEEA7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -315,6 +326,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		74A8F7428E8B8E86D4E9A6BD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		7AF210D83241C3D422B2797C /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +369,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalscaleApp/Pods-TribalscaleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A719DC539C1E04AA9A2BEEA7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalscaleAppTests/Pods-TribalscaleAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B644515855E6CCAAB31EEB7B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TribalscaleAppTests/Pods-TribalscaleAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -535,6 +591,7 @@
 		};
 		758AA8DC1EFB2FA60091F279 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBA7F111228C0C2C1108FD6 /* Pods-TribalscaleAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -550,6 +607,7 @@
 		};
 		758AA8DD1EFB2FA60091F279 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EAC4636343A976B78C36D4 /* Pods-TribalscaleAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

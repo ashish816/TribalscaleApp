@@ -63,7 +63,7 @@ class UserDetailViewController: UIViewController, UITableViewDataSource, UITable
 
 
         case 2:
-            var dateFormatter = DateFormatter()
+            let dateFormatter = DateFormatter()
             cell.textLabel?.text = dateFormatter.dateOfBirthFromDate(dateString: (self.userInfo?.dob)!)
             cell.detailTextLabel?.text = "Date of Birth"
 

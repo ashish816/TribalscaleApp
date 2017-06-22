@@ -9,7 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>OHHTTPStubs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TribalscaleApp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TribalscaleAppTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -23,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>981BA29990D75E1E17D3E5A377091047</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9E8297FE8BACB32BC23CED39A430DB21</key>
 		<dict>
 			<key>primary</key>
 			<true/>

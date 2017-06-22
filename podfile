@@ -4,4 +4,15 @@ use_frameworks!
 
 target ‘TribalscaleApp’ do
     pod 'Alamofire', '~> 4.4'
+
+   abstract_target 'tests' do
+   platform :ios, '10.0'
+   target 'TribalscaleAppTests' 
+   target 'TribalscaleUITests' do
+
+
+   inherit! :search_paths
+   pod 'OHHTTPStubs'
+  end
 end
+

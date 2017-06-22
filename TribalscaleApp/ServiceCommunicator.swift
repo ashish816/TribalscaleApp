@@ -14,7 +14,7 @@ class ServiceCommunicator: NSObject {
     
     func fetchUsers(completionBlock : @escaping ([UserInfo]?, Error?) -> ()) {
         
-        let randomUserUrl = "https://randomuser.me/api/?results=5000"
+        let randomUserUrl = "https://randomuser.me/api/?results=500"
         
         Alamofire.request(randomUserUrl, method: .get, parameters: nil, encoding: JSONEncoding.default).response { (response) in
             if let result = response.data {
